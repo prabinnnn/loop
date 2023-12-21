@@ -2,4 +2,6 @@ let a = 1;
 while (a <= 100) {
   console.log(a);
 }
-do {} while (a < 100);
+do {
+  let a = 1;
+} while (a < 100);
